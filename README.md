@@ -1,3 +1,27 @@
-# Cambio-Climatico. Leandro y Anton hemos creado esta página web sobre el cambio climático en la que exponemos una serie de causas y consecuencias del cambio climatico. Damos también la opcion de adjuntar a los lectores de la web una posible solución al cambio climático, una imagen en la que al clicar podemos observar el cambio del paisaje tras el camvio climatico, unos datos importantes y un enlace a una pagina web externa donde hay mas datos y mas concretos.
+# Cambio Climático
+
+Leandro y Anton hemos creado esta página web sobre el cambio climático en la que se exponen
+diversas causas y consecuencias de este fenómeno. El objetivo del proyecto es concienciar
+sobre la importancia del cuidado del medio ambiente mediante una web interactiva.
+
+La página incluye distintos recursos desarrollados con JavaScript, como:
+- Un campo de texto que permite al usuario introducir un mensaje y modificar el contenido de la web.
+- Un intercambio de imágenes al hacer clic para mostrar el impacto del cambio climático en el paisaje.
+- Un objeto animado en movimiento que representa el paso del tiempo y la necesidad de actuar.
+- Datos relevantes sobre el cambio climático y un enlace externo a una fuente informativa fiable.
+
+La web ha sido desarrollada utilizando HTML, CSS y JavaScript, con una estructura correcta
+de carpetas y publicada mediante GitHub Pages.
+
 ## Inspiración y diseño
-La estética de esta página web está inspirada en sitios web informativos y educativos sobre sostenibilidad y cambio climático, como la web de la Organización de las Naciones Unidas sobre acción climática: https://www.un.org/es/climatechange
+
+La estética de esta página web está inspirada en sitios web informativos y educativos sobre
+sostenibilidad y cambio climático, especialmente en la web de Acción Climática de la
+Organización de las Naciones Unidas:
+
+https://www.un.org/es/climatechange
+
+## Enlace a la web
+
+https://antonbreagarcia-eng.github.io/Cambio-Climatico/
+
