@@ -1,1 +1,3 @@
 # Cambio-Climatico. Leandro y Anton hemos creado esta página web sobre el cambio climático en la que exponemos una serie de causas y consecuencias del cambio climatico. Damos también la opcion de adjuntar a los lectores de la web una posible solución al cambio climático, una imagen en la que al clicar podemos observar el cambio del paisaje tras el camvio climatico, unos datos importantes y un enlace a una pagina web externa donde hay mas datos y mas concretos.
+## Inspiración y diseño
+La estética de esta página web está inspirada en sitios web informativos y educativos sobre sostenibilidad y cambio climático, como la web de la Organización de las Naciones Unidas sobre acción climática: https://www.un.org/es/climatechange
