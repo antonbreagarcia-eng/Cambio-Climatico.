@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 30px 0;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #1e3c72;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-left: 4px solid #2a5298;
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.text-input-section {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+}
+
+.text-input-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #1e3c72;
+}
+
+#user-message {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 2px solid #2a5298;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#update-btn {
+    padding: 12px 30px;
+    background-color: #2a5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+#update-btn:hover {
+    background-color: #1e3c72;
+}
+
+.user-response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-left: 4px solid #2a5298;
+    font-style: italic;
+    min-height: 50px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-container {
+    margin-top: 30px;
+}
+
+#toggle-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#toggle-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.stat-card p {
+    font-size: 0.95em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.animation-section {
+    text-align: center;
+}
+
+.animation-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #2a5298;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    top: 35px;
+}
+
+.resources a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #2a5298;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 700;
+}
+
+.resources a:hover {
+    background-color: #1e3c72;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #a8d0ff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.license {
+    margin-top: 15px;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
